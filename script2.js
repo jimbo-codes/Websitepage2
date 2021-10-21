@@ -10,19 +10,19 @@ featuredTitle3.id = "featured-title3";
 setTimeout(function() {
     var elem4 = document.getElementById("featured-title3");
     elem4.style.color = "red";
-}, 1000);
+}, 2000);
 
 setTimeout(function() {
     var elem = document.getElementById("featured-title");
     elem.parentNode.removeChild(elem);
-}, 3000);
+}, 4000);
 
 setTimeout(function() {
     var elem2 = document.getElementById("featured-title2");
     elem2.parentNode.removeChild(elem2);
-}, 3000);
+}, 4000);
 
 setTimeout(function() {
     var elem3 = document.getElementById("featured-title3");
     elem3.parentNode.removeChild(elem3);
-}, 3000);
+}, 4000);
